@@ -9,6 +9,7 @@ A hands-on cybersecurity home lab built using Kali Linux and Ubuntu Server in Or
 ## | Machine | Role | Operating System | Lab IP | Services |
 
 | Kali | Security testing | Kali Linux | `192.168.56.102` | nmap, curl, other Kali tools|
+
 | xanny | Target and defensive analysis | Ubuntu Server LTS | `192.168.56.101` | 	OpenSSH (22), Apache (80) |
 
 **Host:** Windows PC with 8 GB RAM  
