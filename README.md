@@ -18,7 +18,9 @@ A hands-on cybersecurity home lab built using Kali Linux and Ubuntu Server in Or
 ### Network Design
 
 Each virtual machine uses:
+
 **Adapter 1 - NAT:** internet access for updates and package installs
+
 **Adapter 2 - Host-only:** private lab network so the VMs can reach each other without being exposed to the wider network
 
 ## Tools Used
