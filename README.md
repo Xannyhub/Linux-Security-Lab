@@ -103,3 +103,23 @@ Ran tcpdump on the target and saw it was replying with resets (correct behaviour
 ## Ethics and Safety
 
 All testing is performed only against virtual machines I own or am authorized to test. The lab uses a private Host-only network for security exercises.
+
+## Screenshots
+
+### 1. Lab Network Configuration
+![Kali internet and NAT configuration](kali-internet-nat.png.png)
+
+### 2. Nmap Service Discovery
+![Nmap service scan identifying exposed services](nmap-service-scan.png.png)
+
+### 3. Port-State Verification
+![Nmap results showing closed ports after troubleshooting](nmap-closed-ports-fixed.png.png)
+
+### 4. Packet Capture Analysis
+![TCP RST replies observed using tcpdump](tcpdump-rst-replies.png.png)
+
+### 5. Firewall Investigation
+![Target firewall configuration during troubleshooting](target-firewall-check.png.png)
+
+### 6. Scan Performance and Troubleshooting
+![Full port scan output during network troubleshooting](slow-full-scan.png.png)
